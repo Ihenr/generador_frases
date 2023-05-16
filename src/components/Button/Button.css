@@ -1,0 +1,11 @@
+.animacion {
+  animation: yourAnimation 0.75s ease-in-out 0s infinite alternate none;
+}
+@keyframes yourAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
